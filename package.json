@@ -8,8 +8,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.2",
+    "multer": "^1.4.2",
     "next": "10.0.9",
+    "next-auth": "^3.13.2",
+    "next-connect": "^0.10.1",
+    "next-pwa": "^5.0.6",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "sharp": "^0.27.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.15",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.4"
   }
 }
